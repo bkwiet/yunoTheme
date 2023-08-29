@@ -16,14 +16,14 @@ LICENSE file for more info.
 
 /* Loading Source Code Pro Regular & Bold */
 @font-face {
-  font-family: 'source_code_probold';
-  src: url('fonts/sourceCodePro-Bold.ttf') format('truetype');
+  font-family: "source_code_probold";
+  src: url("fonts/sourceCodePro-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'source_code_proregular';
-  src: url('fonts/sourceCodePro-Regular.ttf') format('truetype');
+  font-family: "source_code_proregular";
+  src: url("fonts/sourceCodePro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -31,13 +31,13 @@ LICENSE file for more info.
 /* Login page customization */
 
 .messages {
-  font-family: 'source_code_probold';
-  color: #FFF;
+  font-family: "source_code_probold";
+  color: #fff;
 }
 .messages.info {
   background: rgba(0, 0, 0, 0.6);
   border-style: solid;
-  border-color: rgba(255, 197, 8, 0.8);
+  border-color: rgba(8, 255, 8, 0.8);
 }
 .messages.danger {
   background: rgba(100, 0, 0, 0.8);
@@ -48,49 +48,49 @@ LICENSE file for more info.
 }
 .login-form .form-text {
   background: rgba(0, 0, 0, 0.8);
-  color: rgba(255, 197, 8);
+  color: rgba(8, 255, 8);
 }
 
 /* Edit profile page, fitting the Infinite Kekeness */
 
 .btn {
-  font-family: 'source_code_proregular';
+  font-family: "source_code_proregular";
 }
 .btn:hover {
-  font-family: 'source_code_probold';
+  font-family: "source_code_probold";
 }
 .link-btn {
   background: rgba(0, 0, 0, 0.6);
 }
 .link-btn:hover {
-  font-family: ('source_code_probold');
+  font-family: ("source_code_probold");
   text-decoration: none;
-  background: rgba(255, 197, 8, 0.8);
+  background: rgba(8, 255, 8, 0.8);
   color: black;
 }
 .classic-btn {
   background: rgba(0, 0, 0, 0.6);
 }
 .classic-btn:hover {
-  font-family: ('source_code_probold');
-  background: rgba(255, 197, 8, 0.8);
+  font-family: ("source_code_probold");
+  background: rgba(8, 255, 8, 0.8);
   color: black;
 }
 
 .form-text {
-  font-family: 'source_code_proregular';
+  font-family: "source_code_proregular";
   background: rgba(50, 50, 50, 0.8);
 }
 .validate-btn {
-  font-family: 'source_code_proregular';
+  font-family: "source_code_proregular";
   background: rgba(0, 50, 0, 0.8);
 }
 .validate-btn:hover {
-  font-family: 'source_code_probold';
+  font-family: "source_code_probold";
   color: black;
 }
 .form-group {
-  font-family: 'source_code_probold' !important;
+  font-family: "source_code_probold" !important;
 }
 
 /* Make page texts yellow */
@@ -101,22 +101,22 @@ LICENSE file for more info.
 .content .footer a,
 a.app-tile,
 #ynh-logout {
-  color: rgb(255, 197, 8) !important;
-  font-family: 'source_code_proregular'; /* Font changed */
+  color: rgb(8, 255, 8) !important;
+  font-family: "source_code_proregular"; /* Font changed */
 }
 
 #ynh-logout:hover {
-  font-family: 'source_code_probold';
+  font-family: "source_code_probold";
   color: black !important;
-  background-color: rgb(225, 197, 8);
+  background-color: rgb(8, 255, 8);
 }
 
 .user-container .user-username {
-  font-family: 'source_code_probold';
+  font-family: "source_code_probold";
 }
 
 .user-container .user-fullname {
-  font-family: 'source_code_proregular';
+  font-family: "source_code_proregular";
 }
 
 .ynh-user-portal {
@@ -131,10 +131,10 @@ a.app-tile,
 .app-tile {
   background-color: rgba(0, 0, 0, 0.5) !important;
   border-style: solid;
-  border-color: rgba(255, 197, 8);
+  border-color: rgb(8, 255, 8);
 }
 .app-tile:hover {
-  background-image: url("./tileHoverTexture.png");
+  background-image: url("./astres_ico.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -143,11 +143,13 @@ a.app-tile,
 .app-tile:focus:after,
 .app-tile:hover:before,
 .app-tile:focus:before {
-    background: rgba(255, 197, 8, 0.8) !important;
+  background: rgba(8, 255, 8) !important;
 }
 
 /* Use a custom logo image */
 #ynh-logo {
   z-index: 10;
-  background-image: url("./yunoInfinite.png");
+  background-image: url("./bkwiet_logo.png");
+  border-radius: 50%;
+  border: 2px rgba(255, 0, 0, 0.37) solid;
 }
